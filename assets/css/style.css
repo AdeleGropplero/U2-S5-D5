@@ -78,6 +78,32 @@ nav ul li {
   align-items: center;
 }
 
+/* M lampeggianti */
+.fade {
+  opacity: 0;
+  transition: opacity ease-in-out;
+}
+
+/* .fade2 {
+  animation: blink 2s ease-in-out infinite;
+}
+
+.fade3 {
+  animation: blink 5s ease-in-out infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+} */
+
 .containerHero h1 {
   font-family: "Spectral", serif;
   font-weight: 400;
