@@ -202,10 +202,16 @@ nav ul li {
 }
 
 /* ------------------------------------------------------------------------------------------------------------ */
+
+.content {
+  width: 80%;
+  margin-inline: auto;
+  display: flex;
+}
+
 /* ARTICLES */
 
 .articlesContainer {
-  margin-left: 100px;
   margin-top: 50px; /* DA ELIMINARE DOPO 🔴*/
   width: 50%;
   margin-bottom: 100px; /* DA SISTEMARE DOPO 🔴*/
@@ -225,10 +231,15 @@ h2 {
   margin-top: 10px;
 }
 
+.boxArticles {
+  width: 600px;
+}
+
 .boxArticles > p {
   color: #00000076;
   font-size: 1.2rem;
   padding-top: 10px;
+  line-height: 1.5rem;
 }
 
 .infoArticles {
@@ -259,7 +270,7 @@ h2 {
   top: 4px;
 }
 
-.boxImage {
+/* .boxImage {
   display: inline-block;
   width: 40%;
 }
@@ -267,4 +278,72 @@ h2 {
 .boxImage img {
   width: 70%;
   margin-left: 10px;
+} */
+
+.bookmark {
+  position: relative;
+  top: 74px;
+  left: -70px;
+  width: 33px;
+}
+
+.articleImg {
+  width: 30%;
+}
+
+/* ------------------------------------------------------------------------------------------------------------ */
+/* DISCOVER */
+
+aside {
+  margin-top: 30px;
+  margin-left: 130px;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  position: sticky;
+  top: 0;
+}
+
+.whatMatters {
+  font-size: 1.2rem;
+  letter-spacing: 0.7px;
+  padding-bottom: 20px;
+  margin-top: 30px;
+}
+
+.buttonsDiscover {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 10px;
+
+  width: 80%;
+  padding-bottom: 40px;
+  border-bottom: #1919192d solid 1px;
+  margin-bottom: 40px;
+}
+
+.buttonsDiscover button {
+  font-family: inherit;
+  font-size: 1.1rem;
+  color: rgba(104, 103, 103, 0.956);
+  padding: 10px;
+  background-color: white;
+  border: 1px solid rgba(128, 128, 128, 0.291);
+  border-radius: 3px;
+}
+
+.anchor {
+  display: flex;
+  flex-wrap: wrap;
+
+  width: 90%;
+}
+
+.anchor a {
+  text-decoration: none;
+  color: rgba(104, 103, 103, 0.956);
+  font-size: 1.1rem;
+  padding-right: 30px;
+  line-height: 2.2rem;
 }
