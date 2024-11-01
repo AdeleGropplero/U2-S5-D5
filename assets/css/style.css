@@ -18,16 +18,17 @@ header {
   border-bottom: solid 1px #191919;
 }
 .header {
-  margin-inline: 100px;
+  width: 80%;
+  margin-inline: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-block: 15px;
+  padding-block: 27px;
   color: #191919;
 }
 
 .logo {
-  width: 13%;
+  width: 190px;
 }
 
 nav {
@@ -38,7 +39,7 @@ nav {
 nav ul li {
   list-style: none;
   display: inline-block;
-  font-size: 0.7rem;
+  font-size: 1rem;
   margin-right: 16px;
 }
 
@@ -46,8 +47,8 @@ nav ul li {
   color: #cecece;
   background-color: #191919;
   font: inherit;
-  font-size: 0.7rem;
-  padding-block: 10px;
+  font-size: 1rem;
+  padding-block: 12px;
   padding-inline: 15px;
   border: none;
   border-radius: 25px;
@@ -62,69 +63,73 @@ nav ul li {
 }
 
 .hero {
-  padding-left: 100px;
+  margin-left: 192px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .containerHero h1 {
   font-family: "Spectral", serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 5.5rem;
-  letter-spacing: -5px;
-  padding-top: 65px;
+  font-size: 8.5rem;
+  letter-spacing: -7px;
 }
 
 .containerHero p {
-  margin-top: 20px;
-  font-size: 1.13rem;
+  padding-top: 40px;
+  font-size: 1.8rem;
   letter-spacing: 0.5px;
-  font-weight: 300;
+  font-weight: 400;
+  color: #191919dc;
 }
 
 .heroBtn {
-  margin-top: 45px;
+  margin-top: 55px;
   color: #efeded;
   background-color: #191919;
-  font-size: 1rem;
+  font-size: 1.4rem;
   font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  padding-block: 7px;
-  padding-inline: 40px;
+  font-weight: 400;
+  padding-block: 13px;
+  padding-inline: 60px;
   border: none;
-  border-radius: 25px;
+  border-radius: 30px;
 }
 
 .daCambiare {
-  width: 41%;
+  width: 700px;
 }
 
 /* ------------------------------------------------------------------------------------------------------------ */
 /* TRENDING */
 .allOrizontal {
   border-bottom: solid 2px #c0bdbd2e;
-  padding-bottom: 10px;
+  padding-bottom: 27px;
 }
 
 .trending {
   display: flex;
   align-items: center;
-  margin-left: 100px;
-  margin-top: 30px;
+  width: 80%;
+  margin-inline: auto;
+  margin-top: 48px;
   margin-bottom: 10px;
 }
 
 .trending h2 {
-  font-size: 0.6rem;
+  font-size: 1rem;
   font-weight: 600;
   letter-spacing: 0.6px;
   padding-left: 8px;
+  margin-top: 0;
 }
 
 /* Trendings 1-6  */
 .containerAllTrendings {
-  margin-inline: 100px;
+  width: 80%;
+  margin-inline: auto;
   display: flex;
   align-items: flex-start;
   flex-wrap: wrap;
@@ -132,8 +137,8 @@ nav ul li {
 .trendingContainer {
   display: flex;
   align-items: flex-start;
-  width: 29%;
-  margin-bottom: 15px;
+  width: 30%;
+  margin-bottom: 35px;
 }
 
 .trendingContainer:not(:nth-child(3)):not(:nth-child(6)) {
@@ -141,7 +146,7 @@ nav ul li {
 }
 
 .trendingContainer > p:first-of-type {
-  font-size: 1.6em;
+  font-size: 2.2rem;
   font-weight: 800;
   letter-spacing: -2px;
   color: #3434341d;
@@ -154,7 +159,7 @@ nav ul li {
   padding-top: 5px;
 }
 .author p {
-  font-size: 0.7rem;
+  font-size: 1rem;
   font-weight: 500;
   letter-spacing: -0.3px;
 }
@@ -163,37 +168,107 @@ nav ul li {
   color: #6e6e6e;
 }
 
-.author .circle {
+.circle {
   border-radius: 50%;
-  width: 9%;
+  width: 26px;
   margin-right: 8px;
 }
 
-.author .square {
-  border-radius: 3px;
-  width: 8%;
+.square {
+  border-radius: 7px;
+  width: 24px;
   margin-right: 8px;
 }
 
 .info > p:first-of-type {
-  font-size: 0.8rem;
+  font-size: 1.2rem;
   font-weight: 800;
   letter-spacing: 0.2px;
-  padding-top: 10px;
+  padding-top: 16px;
+  line-height: 1.6rem;
 }
 
 .info > p:last-of-type {
-  font-size: 0.65rem;
+  font-size: 1rem;
   color: #19191998;
-
-  padding-top: 10px;
+  display: inline-block;
+  padding-top: 16px;
 }
 
-.fas.fa-star {
-  font-size: 0.7rem;
-  color: #ffc017;
-  padding-left: 3px;
+.starTrendings {
+  width: 22px;
+  position: relative;
+  top: 5px;
 }
 
 /* ------------------------------------------------------------------------------------------------------------ */
 /* ARTICLES */
+
+.articlesContainer {
+  margin-left: 100px;
+  margin-top: 50px; /* DA ELIMINARE DOPO 🔴*/
+  width: 50%;
+  margin-bottom: 100px; /* DA SISTEMARE DOPO 🔴*/
+}
+
+.singleArticle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+h2 {
+  font-size: 1.7rem;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  margin-top: 10px;
+}
+
+.boxArticles > p {
+  color: #00000076;
+  font-size: 1.2rem;
+  padding-top: 10px;
+}
+
+.infoArticles {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #19191958;
+  letter-spacing: 0.5px;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.infoArticles p {
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+.intrests {
+  /* Zona grigia dopo la data */
+  border-radius: 20px;
+  background-color: #f1f2f2;
+  padding-inline: 15px;
+  padding-block: 5px;
+}
+
+.star {
+  width: 24px;
+  position: relative;
+  top: 4px;
+}
+
+.boxImage {
+  display: inline-block;
+  width: 40%;
+}
+
+.boxImage img {
+  width: 70%;
+  margin-left: 10px;
+}
+
+.bookmark {
+  width: 30px;
+}
