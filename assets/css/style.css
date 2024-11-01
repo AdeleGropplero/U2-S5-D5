@@ -16,7 +16,13 @@ body {
 header {
   background-color: #ffc017;
   border-bottom: solid 1px #191919;
+  display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  transition: background-color 0.333s;
 }
+
 .header {
   width: 80%;
   margin-inline: auto;
@@ -43,15 +49,18 @@ nav ul li {
   margin-right: 16px;
 }
 
-.headerBtn {
-  color: #cecece;
+#headerBtn {
+  color: #ffffff;
   background-color: #191919;
   font: inherit;
   font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0.3px;
   padding-block: 12px;
   padding-inline: 15px;
   border: none;
   border-radius: 25px;
+  transition: background-color 0.333s;
 }
 
 /* ------------------------------------------------------------------------------------------------------------ */
@@ -302,7 +311,7 @@ aside {
   flex-direction: column;
   align-self: flex-start;
   position: sticky;
-  top: 0;
+  top: 95px;
 }
 
 .whatMatters {
