@@ -102,23 +102,27 @@ nav ul li {
 
 /* ------------------------------------------------------------------------------------------------------------ */
 /* TRENDING */
+.allOrizontal {
+  border-bottom: solid 2px #c0bdbd2e;
+  padding-bottom: 10px;
+}
 
 .trending {
   display: flex;
   align-items: center;
   margin-left: 100px;
   margin-top: 30px;
-  margin-bottom: 17px;
+  margin-bottom: 10px;
 }
 
 .trending h2 {
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   font-weight: 600;
   letter-spacing: 0.6px;
   padding-left: 8px;
 }
 
-/* Trending - 1  */
+/* Trendings 1-6  */
 .containerAllTrendings {
   margin-inline: 100px;
   display: flex;
@@ -128,10 +132,12 @@ nav ul li {
 .trendingContainer {
   display: flex;
   align-items: flex-start;
+  width: 29%;
+  margin-bottom: 15px;
 }
 
 .trendingContainer:not(:nth-child(3)):not(:nth-child(6)) {
-  margin-right: 90px;
+  margin-right: 50px;
 }
 
 .trendingContainer > p:first-of-type {
@@ -153,9 +159,19 @@ nav ul li {
   letter-spacing: -0.3px;
 }
 
-.author img {
+.trendingContainer span {
+  color: #6e6e6e;
+}
+
+.author .circle {
   border-radius: 50%;
   width: 9%;
+  margin-right: 8px;
+}
+
+.author .square {
+  border-radius: 3px;
+  width: 8%;
   margin-right: 8px;
 }
 
@@ -172,3 +188,12 @@ nav ul li {
 
   padding-top: 10px;
 }
+
+.fas.fa-star {
+  font-size: 0.7rem;
+  color: #ffc017;
+  padding-left: 3px;
+}
+
+/* ------------------------------------------------------------------------------------------------------------ */
+/* ARTICLES */
