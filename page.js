@@ -53,7 +53,11 @@ Questo era il metodo precendentemente scelto, tuttavia il dover scegliere a mano
 su 8 mila righe di codice a quale g dare l'id non mi sembrava funzionale quindi 
 ho scelto un altro approccio. */
 
-const gCorrect = document.querySelectorAll("svg g path");
+const gCorrect =
+  document.querySelectorAll(
+    "svg g path"
+  ); /* Dall'inspector ho notato che le g "giuste erano quelle con il path
+                                                             quindi mi sono ricavata una node list gelle g "corrette" */
 console.log(gCorrect);
 console.log(gCorrect.length);
 
