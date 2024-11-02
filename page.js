@@ -48,10 +48,12 @@ setInterval(() => {
   document.getElementById("m11").classList.toggle("fade");
   document.getElementById("m12").classList.toggle("fade");
 }, 1700); 
-
-Questo era il metodo precendentemente scelto, tuttavia il dover scegliere a mano 
+⬆️ Questo era il metodo precendentemente scelto, tuttavia il dover scegliere a mano 
 su 8 mila righe di codice a quale g dare l'id non mi sembrava funzionale quindi 
 ho scelto un altro approccio. */
+
+/* ------------------------------------------------------------------------------------------------------------ */
+/* METODO RANDOMICO */
 
 const gCorrect =
   document.querySelectorAll(
